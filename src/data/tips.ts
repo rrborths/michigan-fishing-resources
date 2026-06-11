@@ -1,0 +1,266 @@
+import { GuidePage } from "./types";
+
+// Additional expert tips: action plans, common mistakes, stewardship,
+// catch and release, budgeting, community, apps, and seasonal calendars.
+
+export const TIPS_PAGE: GuidePage = {
+  id: "expert-tips",
+  title: "Additional Expert Tips",
+  kidTitle: "Pro Tips",
+  description:
+    "A first-year action plan, common mistakes to avoid, stewardship practices, catch-and-release done right, and seasonal calendars for the Lower and Upper Peninsulas.",
+  sections: [
+    {
+      id: "first-year-plan",
+      title: "First-Year Action Plan",
+      kidTitle: "Your First Year",
+      body: [],
+      tables: [
+        {
+          id: "first-year-table",
+          title: "First-Year Action Plan",
+          columns: ["Month", "Goal"],
+          rows: [
+            { Month: "Month 1", Goal: "Buy a license + starter kit. Catch your first bluegill or stocked trout." },
+            { Month: "Month 2", Goal: "Visit a new water type (a river or lake you haven't tried)." },
+            { Month: "Month 3", Goal: "Try a new species (smallmouth or walleye)." },
+            { Month: "Month 4", Goal: "Take a friend or family member. Teach what you've learned." },
+            { Month: "Month 5", Goal: "Try a new time-of-day window (early morning or late evening)." },
+            { Month: "Month 6", Goal: "Plan a multi-species trip with one rod and three rigs." },
+          ],
+        },
+      ],
+    },
+    {
+      id: "common-mistakes",
+      title: "Common Beginner Mistakes (And Fixes)",
+      kidTitle: "Mistakes to Avoid",
+      body: [],
+      tables: [
+        {
+          id: "mistakes-table",
+          title: "Common Beginner Mistakes (And Fixes)",
+          columns: ["Mistake", "Fix"],
+          rows: [
+            { Mistake: "Using tackle that is too heavy", Fix: "Downsize. Smaller fish bite smaller offerings." },
+            { Mistake: "Fishing too fast", Fix: "Slow down. Most beginners retrieve too quickly." },
+            { Mistake: "Staying in one spot", Fix: "Move every 15–20 minutes if no bites." },
+            { Mistake: "Ignoring weather", Fix: "Adjust with light, pressure, and wind." },
+            { Mistake: "Forgetting the drag", Fix: "Set drag to ~⅓ of line test strength." },
+            { Mistake: "Poor hook sets", Fix: "Reel to tension, sweep the rod, don't yank." },
+            { Mistake: "Neglecting knots", Fix: "Practice at home; retie after a snag or fish." },
+            { Mistake: "Skipping the bait shop", Fix: "Stop in. They know what's biting, where, and on what." },
+            { Mistake: "Going unprepared", Fix: "Check weather, sun protection, water, snacks, and licenses before leaving." },
+            { Mistake: "Keeping undersized fish", Fix: "Measure before landing. Learn slot and size limits." },
+          ],
+        },
+      ],
+    },
+    {
+      id: "bait-shop-questions",
+      title: "Bait Shop Questions That Will Help You Catch Fish",
+      kidTitle: "Questions to Ask at the Bait Shop",
+      body: [],
+      list: [
+        '"What is biting right now?"',
+        '"Where are you catching them?"',
+        '"What are you using?"',
+        '"At what depth?"',
+        '"Any size or color preference lately?"',
+        '"Any recent tournaments or reports I should know about?"',
+      ],
+    },
+    {
+      id: "safety-stewardship",
+      title: "Safety & Stewardship",
+      kidTitle: "Be Safe, Be a Good Steward",
+      body: [],
+      list: [
+        "**Wear a life jacket** — Michigan law requires every vessel to carry one USCG-approved PFD per person on board. Children under 6 must wear one at all times on vessels under 26 feet.",
+        "**Tell someone your plan** — where you're going and when you'll be back.",
+        "**Sun protection** — hat, polarized sunglasses, sunscreen. Polarized glasses cut glare and let you see fish.",
+        "**Bug protection** — mosquitoes and deer flies are serious in summer.",
+        "**Footwear** — rubber-soled wading shoes or boots. Felt soles are banned in Michigan (since 2012) because they harbor invasive organisms. Add removable studs for slippery rock.",
+        "**Watch for lightning** — get off the water and away from rods at the first sign.",
+        "**Barotrauma in deep water** — fish brought up from depth (walleye, lake trout) may need venting to survive release.",
+        "**Leave no trace** — pack out line, hooks, and trash. Don't spread invasive species.",
+        "**Respect private property** — public access is plentiful, but always confirm.",
+      ],
+    },
+    {
+      id: "invasive-species",
+      title: "Invasive Species Awareness",
+      kidTitle: "Watch Out for Invasive Species",
+      body: [],
+      list: [
+        "Don't move live baitfish between waters.",
+        "Drain bilge, livewells, and bait buckets before leaving a launch.",
+        "Rinse boats, trailers, and gear with hot water or a pressure washer between lakes.",
+        "Learn to identify zebra mussels, quagga mussels, Eurasian watermilfoil, and round goby — all established in Michigan.",
+        "Report unusual catches or suspected invasive species to the DNR.",
+      ],
+    },
+    {
+      id: "catch-and-release",
+      title: "Catch and Release: Doing It Right",
+      kidTitle: "Catch and Release",
+      body: [
+        "Catch and release (C&R) is practiced widely in Michigan, especially for bass, muskellunge, large trout, and steelhead. Done carelessly, released fish die after you've let them go. Done correctly, they swim away healthy.",
+      ],
+      kidBody: [
+        "Letting a fish go the right way means it gets to swim away happy and healthy — here's how to do it!",
+      ],
+      list: [
+        "**1. Keep the fish in the water as much as possible.** Have the camera ready before lifting. Ten seconds out of water is fine; 30 seconds is stressful; 60+ seconds can be fatal, especially in warm water.",
+        "**2. Use wet hands or a rubber-coated net.** Dry hands strip the protective slime coat that defends fish against infection.",
+        "**3. Support the body.** For larger fish, support the belly — don't let the full weight hang from the jaw.",
+        "**4. Remove the hook quickly.** Use needle-nose pliers or a hemostat. If the hook is deep and you want to release the fish, cutting the line close to the hook is often better than digging it out.",
+        "**5. Revive the fish before releasing.** Hold it upright and gently move it forward and backward. When it kicks out of your hands on its own, it's ready.",
+        "**Barotrauma** — walleye, perch, and lake trout brought up from depths greater than 20–25 feet may develop overinflated swim bladders. A venting tool (~$5 at most tackle shops) allows you to return them safely to depth.",
+        "**Circle hooks** significantly reduce deep hooking and are strongly recommended for bait fishing when practicing C&R.",
+      ],
+    },
+    {
+      id: "budgeting",
+      title: "Budgeting for the Sport",
+      kidTitle: "What Does It Cost?",
+      body: [],
+      tables: [
+        {
+          id: "budgeting-table",
+          title: "Budgeting for the Sport",
+          columns: ["Tier", "Annual Spend", "What You Get"],
+          rows: [
+            { Tier: "Bare bones", "Annual Spend": "$100–200", "What You Get": "License, one combo rod/reel, basic tackle, live bait" },
+            { Tier: "Casual", "Annual Spend": "$300–600", "What You Get": "+ Extra reel, polarized sunglasses, net, more lures, a few guided trips" },
+            { Tier: "Committed", "Annual Spend": "$800–1,500+", "What You Get": "+ Second outfit, waders, electronics, boat or kayak rental, tackle upgrades" },
+            { Tier: "Serious", "Annual Spend": "$2,000+", "What You Get": "+ Own boat/kayak, sonar, electric motor, premium rods and reels, multiple species-specific setups" },
+          ],
+        },
+      ],
+    },
+    {
+      id: "building-community",
+      title: "Building Community",
+      kidTitle: "Find Your Fishing Friends",
+      body: [],
+      list: [
+        "Join a local fishing club — many Michigan towns have bass clubs, Trout Unlimited chapters, and muskie clubs.",
+        "Volunteer with the DNR — stream cleanups, fish stocking, habitat projects.",
+        "Attend a fishing expo or seminar — Outdoorama, individual sport shows.",
+        "Find a mentor — the fastest way to learn is from an experienced local angler.",
+        "Share what you learn — teaching a kid to catch their first bluegill is one of the sport's greatest rewards.",
+      ],
+    },
+    {
+      id: "apps-and-resources",
+      title: "Michigan Fishing Apps and Digital Resources",
+      kidTitle: "Helpful Apps",
+      body: [
+        "Pro tip: before any trip to a new water, spend 15 minutes on Navionics or Google Maps satellite view identifying the three most likely fish-holding spots. You'll fish more efficiently and waste less time covering dead water.",
+      ],
+      tables: [
+        {
+          id: "apps-table",
+          title: "Michigan Fishing Apps and Digital Resources",
+          columns: ["Resource", "What It's For", "Where to Find It"],
+          rows: [
+            { Resource: "Michigan DNR App", "What It's For": "License purchase, fishing reports, regulation lookup, interactive maps", "Where to Find It": 'App Store / Google Play: search "Michigan DNR"' },
+            { Resource: "MI Fishing (DNR)", "What It's For": "Weekly fishing reports by region and species", "Where to Find It": 'michigan.gov/dnr → "Fishing Reports"' },
+            { Resource: "Fishbrain", "What It's For": "Social catch-reporting app; see what others catch nearby; log your own", "Where to Find It": "fishbrain.com or app stores" },
+            { Resource: "The Michigan Sportsman", "What It's For": "Michigan's most active fishing forum; real-time trip reports by region", "Where to Find It": "michigan-sportsman.com" },
+            { Resource: "Navionics", "What It's For": "Lake maps with depth contours; invaluable for finding structure without a fish finder", "Where to Find It": "navionics.com or app stores (~$15/yr)" },
+            { Resource: "Windy.com", "What It's For": "Wind, pressure, and storm forecasting — especially useful for Great Lakes trips", "Where to Find It": "windy.com" },
+            { Resource: "Google Maps Satellite", "What It's For": "Free starting point; identify weed edges, points, and access before you arrive", "Where to Find It": "maps.google.com — switch to satellite view" },
+          ],
+        },
+      ],
+    },
+    {
+      id: "seasonal-calendar-lp",
+      title: "Quick-Reference Seasonal Calendar — Lower Peninsula",
+      kidTitle: "Seasonal Calendar — Lower Michigan",
+      body: [],
+      tables: [
+        {
+          id: "seasonal-calendar-lp-table",
+          title: "Quick-Reference Seasonal Calendar — Lower Peninsula",
+          columns: ["Month", "Top Targets", "Top Tactics"],
+          rows: [
+            { Month: "April", "Top Targets": "Walleye (rivers), pike, bass (pre-spawn)", "Top Tactics": "Jigs, jerkbaits, live bait under bobber" },
+            { Month: "May", "Top Targets": "Bass (spawn), walleye (trib mouths), panfish (beds)", "Top Tactics": "Soft plastics, drop-shots, light jigs" },
+            { Month: "June", "Top Targets": "Largemouth, pike, panfish, early trout", "Top Tactics": "Topwater, spinnerbaits, poppers" },
+            { Month: "July", "Top Targets": "Bass, pike, catfish (rivers)", "Top Tactics": "Deep crankbaits, night fishing, bottom rigs" },
+            { Month: "August", "Top Targets": "Bass (deep), cats, smallmouth (rivers)", "Top Tactics": "Jigging, deep plastics, cut bait" },
+            { Month: "September", "Top Targets": "Walleye (tribs), smallmouth, steelhead (early), pike", "Top Tactics": "Crankbaits, trolling, casting spinners" },
+            { Month: "October", "Top Targets": "Steelhead, salmon, walleye, bass, pike", "Top Tactics": "Drift fishing, spawn sacs, large plugs" },
+            { Month: "November", "Top Targets": "Steelhead, pike, late walleye", "Top Tactics": "Drift rigs, large baits, deep presentations" },
+            { Month: "Dec – Mar", "Top Targets": "Ice fishing: panfish, pike, walleye, perch", "Top Tactics": "Tip-ups, jigging spoons, micro jigs" },
+          ],
+        },
+      ],
+    },
+    {
+      id: "seasonal-calendar-up",
+      title: "Seasonal Calendar — Upper Peninsula Adjustments",
+      kidTitle: "Seasonal Calendar — Upper Michigan",
+      body: [
+        "The Lower Peninsula calendar above reflects southern/central timing. The Upper Peninsula runs 2–4 weeks later for most seasonal events due to colder temperatures and later ice-out.",
+      ],
+      tables: [
+        {
+          id: "seasonal-calendar-up-table",
+          title: "Seasonal Calendar — Upper Peninsula Adjustments",
+          columns: ["Season / Event", "LP Timing", "UP Timing", "Key Differences"],
+          rows: [
+            { "Season / Event": "Ice-out / open water", "LP Timing": "Mid-March – early April", "UP Timing": "Late April – mid-May", "Key Differences": "Many UP lakes don't clear until late April or May" },
+            { "Season / Event": "Trout opener (general)", "LP Timing": "Last Sat. of April", "UP Timing": "Last Sat. of April", "Key Differences": "Water is colder; fish slower and deeper early season" },
+            { "Season / Event": "Walleye river spawning runs", "LP Timing": "April", "UP Timing": "Mid-May", "Key Differences": "Later run timing on most UP rivers" },
+            { "Season / Event": "Bass spawn", "LP Timing": "May–June", "UP Timing": "June–early July", "Key Differences": "Cold water delays spawning by several weeks" },
+            { "Season / Event": "Smallmouth peak", "LP Timing": "June–September", "UP Timing": "July–September", "Key Differences": "Shorter but excellent season" },
+            { "Season / Event": "Salmon runs", "LP Timing": "Aug–Oct", "UP Timing": "Late Aug–Oct", "Key Differences": "UP rivers receive Chinook, Coho, and Pink salmon" },
+            { "Season / Event": "Fall steelhead", "LP Timing": "Sep–Nov", "UP Timing": "Oct–Nov", "Key Differences": "Peak on Two-Hearted, Presque Isle, Tahquamenon rivers" },
+            { "Season / Event": "Ice-up / ice fishing", "LP Timing": "December–March", "UP Timing": "November–March (sometimes Oct)", "Key Differences": "Ice comes earlier; can last into April in northern UP" },
+          ],
+        },
+      ],
+      list: [
+        "**Spring** — Brook trout in remote streams (Paint, Fox, Yellow Dog rivers); pike on inland lakes; walleye on Gogebic and Lac Vieux Desert.",
+        "**Summer** — Smallmouth on the Menominee, Sturgeon, and Escanaba rivers; lake trout on Lake Superior.",
+        "**Fall** — Chinook and coho salmon on the Two-Hearted, Presque Isle, and Brule rivers; steelhead follow in October–November.",
+        "**Winter** — Ice fishing on Gogebic, Milakokia Lake, Manistique Lake; burbot night fishing is exceptional.",
+      ],
+    },
+    {
+      id: "first-ten-trips",
+      title: "Your First 10 Trips: A Suggested Plan",
+      kidTitle: "Your First 10 Fishing Trips",
+      body: [],
+      list: [
+        "**Trip 1:** Local pond or small lake for bluegill with a bobber and worm. Goal: catch 5 fish.",
+        "**Trip 2:** Same lake, try a small spinner. Goal: feel the difference.",
+        "**Trip 3:** River for stocked trout with PowerBait or worms. Goal: land a trout.",
+        "**Trip 4:** Larger lake for bass with a soft plastic worm. Goal: catch or see a bass.",
+        "**Trip 5:** Pier or shoreline of a Great Lake. Goal: experience big water.",
+        "**Trip 6:** River for smallmouth with a tube jig or crankbait. Goal: feel smallmouth power.",
+        "**Trip 7:** Night trip for catfish. Goal: experience night fishing.",
+        "**Trip 8:** Walleye trip (spring or fall). Goal: hook a walleye.",
+        "**Trip 9:** Steelhead or salmon trip in fall (if timing works). Goal: experience big-water run fishing.",
+        "**Trip 10:** Take a kid, spouse, or friend and teach what you've learned. Goal: pass it on.",
+      ],
+    },
+    {
+      id: "final-wisdom",
+      title: "Final Wisdom",
+      kidTitle: "One Last Thing",
+      body: [
+        '"The best time to go fishing is whenever you can."',
+        "Michigan offers more accessible, diverse freshwater fishing than almost anywhere on earth. Show up prepared, stay curious, fish often, and you'll find your own success stories. Tight lines — and welcome to the sport.",
+      ],
+      kidBody: [
+        '"The best time to go fishing is whenever you can!"',
+        "Michigan has amazing fishing all over the state. Get out there, stay curious, and have fun!",
+      ],
+    },
+  ],
+};

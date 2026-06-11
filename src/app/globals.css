@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7fafc;
+  --foreground: #14202b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Michigan Fishing Resources brand palette */
+  --color-water-dark: #0b3954;
+  --color-water: #176d9c;
+  --color-water-light: #4fa3d1;
+  --color-water-mist: #e6f3fa;
+  --color-forest: #1f6f43;
+  --color-forest-light: #5cab78;
+  --color-sand: #f6ecd9;
+  --color-sun: #f0a830;
+  --color-sun-light: #fbd9a5;
+
+  --font-sans: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-kids: "Trebuchet MS", "Segoe UI", -apple-system, Roboto, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Kids Mode: friendlier, rounder type and a touch more breathing room */
+[data-kids-mode="true"] body {
+  font-family: var(--font-kids);
+}
+
+[data-kids-mode="true"] .kids-larger {
+  font-size: 1.08em;
+  line-height: 1.6;
+}
